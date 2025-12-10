@@ -5,18 +5,32 @@
 
 # 配置vue.config.js
   // vue.config.js
+  
 module.exports = {
+
   configureWebpack: {
+  
     devtool: 'source-map'
+    
   },
+  
   pluginOptions: {
+  
     electronBuilder: {
+    
       mainProcessFile: 'src/background.js',
+      
       chainWebpackMainProcess: (config) => {
+      
         config.devtool('source-map')
+        
       }
+      
     }
+    
   }
+  
 }
 
-# 再主进程相关代码加断点（background.js），点击webstrom上debug按钮
+
+# 在主进程相关代码加断点（background.js），点击webstrom上debug按钮
