@@ -33,7 +33,7 @@ module.exports = {
 }
 
 
-# 在主进程相关代码加断点（background.js），点击webstrom上debug按钮
+# 在主进程相关代码加断点（background.js），点击webstrom上debug按钮 （vue3 ts vite ）
 
 
 对应 [package.json里是：
