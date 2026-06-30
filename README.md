@@ -51,3 +51,6 @@ Port: 5858
 不要：Debug npm run dev:inspect
 
 如果你现在是在 WebStorm 里给 dev:inspect 这个 npm 脚本点了小虫子，改成点普通绿色三角运行。
+
+<img width="1147" height="695" alt="截屏2026-06-30 09 36 08" src="https://github.com/user-attachments/assets/ccc2461e-0fcd-4e4c-8d81-5d92e81fb31d" /><img width="1465" height="297" alt="截屏2026-06-30 09 35 58" src="https://github.com/user-attachments/assets/30b9e027-5e64-4934-9657-d2ce21590e15" />
+
